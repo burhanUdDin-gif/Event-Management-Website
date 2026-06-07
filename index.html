@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Event Management Website</title>
+</head>
+<body>
+    <header class="header-part">
+        <h1>EVENT HORIZON</h1>
+        <p class="header-parragraph">Manage. Create. Celebrate</p>
+    </header>
+    <section class="search-wrapper">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input class="search-input" type="text" placeholder="Search events by name and date...">
+    </section>
+
+    <section class="events-shower-container">
+        <h3 class="js-upcoming-header">Upcoming Events</h3>
+        <div class="event-box-shower container-for-events">
+
+        </div>
+    </section>
+
+    <section class="past-event-container">
+        <h3 class="js-past-header">Past Events</h3>
+        <div class="paste-event-box container-for-events">
+
+        </div>
+    </section>
+
+    <section class="add-new-event-container">
+        <form action="#">
+            <h3 class="h3-event-heading">Add New Event</h3>
+            <div class="name-date-input">
+                <div class="field-group">
+                    <label class="js-label" for="event-name-input">Event Name</label>
+                    <input class="js-event-name" type="text" id="event-name-input" placeholder="Enter an event name">
+                </div>
+
+                <div class="field-group">
+                    <label class="js-label" for="event-date-input">Event Date</label>
+                    <input class="js-event-date" type="date" id="event-date-input">
+                </div>
+            </div>
+
+            <label class="textarea-label" for="event-description-input">Event Description</label>
+            <textarea class="js-event-textarea" name="event-description" id="event-description-input" placeholder="Enter event description"></textarea>
+
+            <button type="button" class="add-event-button"><i class="fa-solid fa-plus"></i> Add Event</button>
+
+            <p class="error-message-generator"></p>
+        </form>
+    </section>
+
+    <footer>&copy; <span class="year"></span> Burhan Ud Din. All rights reserved.</footer>
+    <script src="script.js"></script>
+</body>
+</html>

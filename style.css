@@ -67,7 +67,6 @@ body{
     width: 90%;
     padding: 15px 30px;
     margin: 30px 35px;
-    overflow: auto;
     min-height: 450px;
     background-color: var(--upcoming-events);
     border: 1px solid var(--upcoming-event-border);
@@ -77,7 +76,6 @@ body{
 .past-event-container{
     width: 90%;
     margin: 30px 35px;
-    overflow: auto;
     padding: 15px 30px;
     border: 1px solid var(--past-event-border);
     background-color: var(--past-events);
@@ -186,7 +184,6 @@ footer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    overflow: auto;
     padding: 10px 15px;
     margin: 5px 10px;
 }
@@ -248,7 +245,6 @@ footer{
 .js-description-pa {
     padding: 5px 10px;
     min-height: 230px;
-    overflow: auto;
     font-size: var(--mid-font);
     font-weight: 450;
 }

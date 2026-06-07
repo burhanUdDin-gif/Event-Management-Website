@@ -71,6 +71,12 @@ No installs. No dependencies. No build step.
 
 ---
 
+## Live Demo
+
+https://burhanuddin-gif.github.io/Event-Management-Website/
+
+---
+
 ## Author
 
 **Burhan Ud Din**

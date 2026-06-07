@@ -72,7 +72,6 @@ body{
     background-color: var(--upcoming-events);
     border: 1px solid var(--upcoming-event-border);
     border-radius: 10px;
-    overflow: scroll;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .past-event-container{
@@ -188,7 +187,6 @@ footer{
     gap: 20px;
     padding: 10px 15px;
     margin: 5px 10px;
-    overflow: scroll;
 }
 .js-box-for-event{
     border: 1px solid var(--border-color);

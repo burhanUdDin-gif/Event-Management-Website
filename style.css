@@ -64,10 +64,10 @@ body{
     pointer-events: none;
 }
 .events-shower-container{
-    overflow: scroll;
     width: 90%;
     padding: 15px 30px;
     margin: 30px 35px;
+    overflow: auto;
     min-height: 450px;
     background-color: var(--upcoming-events);
     border: 1px solid var(--upcoming-event-border);
@@ -77,6 +77,7 @@ body{
 .past-event-container{
     width: 90%;
     margin: 30px 35px;
+    overflow: auto;
     padding: 15px 30px;
     border: 1px solid var(--past-event-border);
     background-color: var(--past-events);
@@ -185,6 +186,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    overflow: auto;
     padding: 10px 15px;
     margin: 5px 10px;
 }
@@ -226,7 +228,6 @@ footer{
     border-color: #AFA9EC;
 }
 
-/* repeats the pattern after 5 */
 .js-box-for-event:nth-child(5n + 1) { background-color: #E6F1FB; border-color: #85B7EB; }
 .js-box-for-event:nth-child(5n + 2) { background-color: #E1F5EE; border-color: #5DCAA5; }
 .js-box-for-event:nth-child(5n + 3) { background-color: #FAEEDA; border-color: #FAC775; }
@@ -247,7 +248,7 @@ footer{
 .js-description-pa {
     padding: 5px 10px;
     min-height: 230px;
-    overflow: scroll;
+    overflow: auto;
     font-size: var(--mid-font);
     font-weight: 450;
 }
